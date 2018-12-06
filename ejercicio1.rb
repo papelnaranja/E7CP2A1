@@ -41,11 +41,13 @@ print menores_5
 
 # 6 Ejercicio 
 sumatoria = a.inject { |sum , x| sum + x }
-# selecciona los elementos menores de 5
-puts sumatoria
+#puts sumatoria
 
 
 # 7 Ejercicio 
 par_impar = a.group_by { |elem| elem.odd?}
-# selecciona los elementos menores de 5
-puts par_impar
+#puts par_impar
+
+# 8 Ejercicio 
+mayor_6 = a.group_by { |elem| elem > 6}
+#puts mayor_6
