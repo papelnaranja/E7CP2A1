@@ -9,12 +9,9 @@ nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia", "Ray"]
 # Utilizando .map crear un arreglo único con la cantidad de letras que tiene cada nombre.
 # Utilizando .map y .gsub eliminar las vocales de todos los nombres.
 
-# nombres.select do |elem|
-    
-# end
 
 # 1. item
-#puts nombres.select { |x| x.length > 5 }
+puts nombres.select { |x| x.length > 5 }
 # La x equivaldría al nombre, de cada uno de los elementos
 # El puts interno genera la extención de cada uno de los elementos
 
